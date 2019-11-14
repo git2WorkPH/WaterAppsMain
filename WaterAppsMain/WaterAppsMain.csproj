@@ -44,6 +44,14 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WaterAppsServices, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WaterAppsServices\bin\Debug\WaterAppsServices.dll</HintPath>
+    </Reference>
+    <Reference Include="WaterAppsTransactions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WaterAppsTransactions\bin\Debug\WaterAppsTransactions.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
@@ -71,6 +79,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="winLogin.resx">
       <DependentUpon>winLogin.cs</DependentUpon>
@@ -89,10 +98,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WaterAppsTransactions\WaterAppsTransactions.csproj">
-      <Project>{7b5ae71c-7fcc-4b36-98c1-f1973f7adcb4}</Project>
-      <Name>WaterAppsTransactions</Name>
-    </ProjectReference>
+    <None Include="Resources\3d-white-user-login-form_6735-253.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transparent-user-login-form-template_6735-284.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -119,7 +119,7 @@ namespace WaterAppsServices
             }
             catch (Exception pcex)
             {
-                ErrorLogging.WriteErrorLog.WriteErrorLog(pcex);
+                ErrorLogging.WriteErrorLog(pcex);
                 return null;
             }
             finally

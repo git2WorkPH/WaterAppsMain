@@ -8,8 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace WaterAppsMain
 {
+   // public WaterAppsService.Connection conn;
+
     public partial class winLogin : Form
     {
         public winLogin()
@@ -26,6 +29,12 @@ namespace WaterAppsMain
         private void winLogin_Load(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //conn
+
         }
     }
 }
