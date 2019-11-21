@@ -15,12 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterAppsTransactions", "Wa
 		{7C958371-EF7F-4A42-9670-5CC4E077A5E3} = {7C958371-EF7F-4A42-9670-5CC4E077A5E3}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterAppsServices", "WaterAppsServices\WaterAppsServices.csproj", "{7C958371-EF7F-4A42-9670-5CC4E077A5E3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterAppsForms", "WaterAppsForms\WaterAppsForms.csproj", "{F9D95F8C-C18A-4F6E-9260-3C72DA9C72C2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7C958371-EF7F-4A42-9670-5CC4E077A5E3} = {7C958371-EF7F-4A42-9670-5CC4E077A5E3}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterAppsServices", "WaterAppsServices\WaterAppsServices.csproj", "{7C958371-EF7F-4A42-9670-5CC4E077A5E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,14 +36,14 @@ Global
 		{7B5AE71C-7FCC-4B36-98C1-F1973F7ADCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B5AE71C-7FCC-4B36-98C1-F1973F7ADCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B5AE71C-7FCC-4B36-98C1-F1973F7ADCB4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C958371-EF7F-4A42-9670-5CC4E077A5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C958371-EF7F-4A42-9670-5CC4E077A5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C958371-EF7F-4A42-9670-5CC4E077A5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C958371-EF7F-4A42-9670-5CC4E077A5E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9D95F8C-C18A-4F6E-9260-3C72DA9C72C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F9D95F8C-C18A-4F6E-9260-3C72DA9C72C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9D95F8C-C18A-4F6E-9260-3C72DA9C72C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9D95F8C-C18A-4F6E-9260-3C72DA9C72C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C958371-EF7F-4A42-9670-5CC4E077A5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C958371-EF7F-4A42-9670-5CC4E077A5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C958371-EF7F-4A42-9670-5CC4E077A5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C958371-EF7F-4A42-9670-5CC4E077A5E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

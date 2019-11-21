@@ -11,30 +11,11 @@ using System.Windows.Forms;
 
 namespace WaterAppsMain
 {
-   // public WaterAppsService.Connection conn;
-
-    public partial class winLogin : Form
+    public partial class WinLogin : Form
     {
-        public winLogin()
+        public WinLogin()
         {
             InitializeComponent();
-        }
-
-        private void btnlogin_Click(object sender, EventArgs e)
-        {
-            WaterAppsTransactions.Connection con = new WaterAppsTransactions.Connection();
-            con.openConnection();
-        }
-
-        private void winLogin_Load(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //conn
-
         }
     }
 }

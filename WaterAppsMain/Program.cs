@@ -17,7 +17,7 @@ namespace WaterAppsMain
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //change this with the login in form..
-            Application.Run(new winLogin());
+            Application.Run(new WinLogin());
 
 
         }
